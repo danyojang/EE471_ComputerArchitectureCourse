@@ -1,0 +1,248 @@
+Host command: /homes/lab.apps/vlsiapps/cadence_hdl_sim/current/tools/verilog/bin/verilog.exe
+Command arguments:
+    alustim.v
+
+Tool:	VERILOG-XL	06.20.001-s log file created Oct 25, 2013  21:16:15
+Tool:	VERILOG-XL	06.20.001-s   Oct 25, 2013  21:16:15
+
+Copyright (c) 1995-2004 Cadence Design Systems, Inc.  All Rights Reserved.
+Unpublished -- rights reserved under the copyright laws of the United States.
+
+Copyright (c) 1995-2004 UNIX Systems Laboratories, Inc.  Reproduced with Permission.
+
+THIS SOFTWARE AND ON-LINE DOCUMENTATION CONTAIN CONFIDENTIAL INFORMATION
+AND TRADE SECRETS OF CADENCE DESIGN SYSTEMS, INC.  USE, DISCLOSURE, OR
+REPRODUCTION IS PROHIBITED WITHOUT THE PRIOR EXPRESS WRITTEN PERMISSION OF
+CADENCE DESIGN SYSTEMS, INC.
+RESTRICTED RIGHTS LEGEND
+
+Use, duplication, or disclosure by the Government is subject to
+restrictions as set forth in subparagraph (c)(1)(ii) of the Rights in
+Technical Data and Computer Software clause at DFARS 252.227-7013 or
+subparagraphs (c)(1) and (2) of Commercial Computer Software -- Restricted
+Rights at 48 CFR 52.227-19, as applicable.
+
+                Cadence Design Systems, Inc.
+                555 River Oaks Parkway
+                San Jose, California  95134
+
+For technical assistance please contact the Cadence Response Center at
+1-877-CDS-4911 or send email to support@cadence.com
+
+For more information on Cadence's Verilog-XL product line send email to
+talkv@cadence.com
+
+Compiling source file "alustim.v"
+
+Warning!  Code following `include command is ignored        [Verilog-CAICI]    
+          "alustim.v", 6: 
+Compiling included source file "alu.v"
+Compiling included source file "zero.v"
+Continuing compilation of source file "alu.v"
+Compiling included source file "slt.v"
+Compiling included source file "addOrSubtract32b.v"
+Compiling included source file "addOrSubtract1b.v"
+Compiling included source file "fullAdder.v"
+Continuing compilation of source file "addOrSubtract1b.v"
+Compiling included source file "twoToOneMux.v"
+Continuing compilation of source file "addOrSubtract1b.v"
+Continuing compilation of source file "addOrSubtract32b.v"
+Continuing compilation of source file "slt.v"
+Continuing compilation of source file "alu.v"
+Compiling included source file "norFunct.v"
+Continuing compilation of source file "alu.v"
+Compiling included source file "fourToOneMux.v"
+Continuing compilation of source file "alu.v"
+Continuing compilation of source file "alustim.v"
+Highest level modules:
+alustim
+
+                   0 Output=xxxxxxxx, CarryOut=x, BussA=00000def, BussB=00000abc, ALUControl=10, Zero=x, Overflow=x, Negative=x
+                 300 Output=xxxxxxxx, CarryOut=0, BussA=00000def, BussB=00000abc, ALUControl=10, Zero=x, Overflow=x, Negative=x
+                 350 Output=xxxxxxxX, CarryOut=0, BussA=00000def, BussB=00000abc, ALUControl=10, Zero=x, Overflow=0, Negative=x
+                 450 Output=0000XxxX, CarryOut=0, BussA=00000def, BussB=00000abc, ALUControl=10, Zero=x, Overflow=0, Negative=0
+                 500 Output=00001XXX, CarryOut=0, BussA=00000def, BussB=00000abc, ALUControl=10, Zero=0, Overflow=0, Negative=0
+                 550 Output=00001XXb, CarryOut=0, BussA=00000def, BussB=00000abc, ALUControl=10, Zero=0, Overflow=0, Negative=0
+                 600 Output=00001Xab, CarryOut=0, BussA=00000def, BussB=00000abc, ALUControl=10, Zero=0, Overflow=0, Negative=0
+                 700 Output=00001Xab, CarryOut=0, BussA=00000def, BussB=00000abc, ALUControl=10, Zero=0, Overflow=0, Negative=0
+                 800 Output=000018ab, CarryOut=0, BussA=00000def, BussB=00000abc, ALUControl=10, Zero=0, Overflow=0, Negative=0
+              100000 Output=000018ab, CarryOut=0, BussA=00001234, BussB=00000105, ALUControl=10, Zero=0, Overflow=0, Negative=0
+              100250 Output=00000770, CarryOut=0, BussA=00001234, BussB=00000105, ALUControl=10, Zero=0, Overflow=0, Negative=0
+              100350 Output=00002649, CarryOut=0, BussA=00001234, BussB=00000105, ALUControl=10, Zero=0, Overflow=0, Negative=0
+              100450 Output=00003159, CarryOut=0, BussA=00001234, BussB=00000105, ALUControl=10, Zero=0, Overflow=0, Negative=0
+              100550 Output=00001779, CarryOut=0, BussA=00001234, BussB=00000105, ALUControl=10, Zero=0, Overflow=0, Negative=0
+              100650 Output=00001339, CarryOut=0, BussA=00001234, BussB=00000105, ALUControl=10, Zero=0, Overflow=0, Negative=0
+              200000 Output=00001339, CarryOut=0, BussA=7fffffff, BussB=00000001, ALUControl=10, Zero=0, Overflow=0, Negative=0
+              200250 Output=7ffffef2, CarryOut=0, BussA=7fffffff, BussB=00000001, ALUControl=10, Zero=0, Overflow=0, Negative=0
+              200350 Output=7ffffde4, CarryOut=0, BussA=7fffffff, BussB=00000001, ALUControl=10, Zero=0, Overflow=0, Negative=0
+              200450 Output=7ffffbc8, CarryOut=0, BussA=7fffffff, BussB=00000001, ALUControl=10, Zero=0, Overflow=0, Negative=0
+              200550 Output=7ffff790, CarryOut=0, BussA=7fffffff, BussB=00000001, ALUControl=10, Zero=0, Overflow=0, Negative=0
+              200650 Output=7fffef20, CarryOut=0, BussA=7fffffff, BussB=00000001, ALUControl=10, Zero=0, Overflow=0, Negative=0
+              200750 Output=7fffde40, CarryOut=0, BussA=7fffffff, BussB=00000001, ALUControl=10, Zero=0, Overflow=0, Negative=0
+              200850 Output=7fffbc80, CarryOut=0, BussA=7fffffff, BussB=00000001, ALUControl=10, Zero=0, Overflow=0, Negative=0
+              200950 Output=7fff7900, CarryOut=0, BussA=7fffffff, BussB=00000001, ALUControl=10, Zero=0, Overflow=0, Negative=0
+              201050 Output=7ffef200, CarryOut=0, BussA=7fffffff, BussB=00000001, ALUControl=10, Zero=0, Overflow=0, Negative=0
+              201150 Output=7ffde400, CarryOut=0, BussA=7fffffff, BussB=00000001, ALUControl=10, Zero=0, Overflow=0, Negative=0
+              201250 Output=7ffbc800, CarryOut=0, BussA=7fffffff, BussB=00000001, ALUControl=10, Zero=0, Overflow=0, Negative=0
+              201350 Output=7ff79000, CarryOut=0, BussA=7fffffff, BussB=00000001, ALUControl=10, Zero=0, Overflow=0, Negative=0
+              201450 Output=7fef2000, CarryOut=0, BussA=7fffffff, BussB=00000001, ALUControl=10, Zero=0, Overflow=0, Negative=0
+              201550 Output=7fde4000, CarryOut=0, BussA=7fffffff, BussB=00000001, ALUControl=10, Zero=0, Overflow=0, Negative=0
+              201650 Output=7fbc8000, CarryOut=0, BussA=7fffffff, BussB=00000001, ALUControl=10, Zero=0, Overflow=0, Negative=0
+              201750 Output=7f790000, CarryOut=0, BussA=7fffffff, BussB=00000001, ALUControl=10, Zero=0, Overflow=0, Negative=0
+              201850 Output=7ef20000, CarryOut=0, BussA=7fffffff, BussB=00000001, ALUControl=10, Zero=0, Overflow=0, Negative=0
+              201950 Output=7de40000, CarryOut=0, BussA=7fffffff, BussB=00000001, ALUControl=10, Zero=0, Overflow=0, Negative=0
+              202050 Output=7bc80000, CarryOut=0, BussA=7fffffff, BussB=00000001, ALUControl=10, Zero=0, Overflow=0, Negative=0
+              202150 Output=77900000, CarryOut=0, BussA=7fffffff, BussB=00000001, ALUControl=10, Zero=0, Overflow=0, Negative=0
+              202250 Output=6f200000, CarryOut=0, BussA=7fffffff, BussB=00000001, ALUControl=10, Zero=0, Overflow=0, Negative=0
+              202350 Output=5e400000, CarryOut=0, BussA=7fffffff, BussB=00000001, ALUControl=10, Zero=0, Overflow=0, Negative=0
+              202450 Output=3c800000, CarryOut=0, BussA=7fffffff, BussB=00000001, ALUControl=10, Zero=0, Overflow=1, Negative=0
+              202550 Output=f9000000, CarryOut=0, BussA=7fffffff, BussB=00000001, ALUControl=10, Zero=0, Overflow=0, Negative=1
+              202650 Output=72000000, CarryOut=0, BussA=7fffffff, BussB=00000001, ALUControl=10, Zero=0, Overflow=0, Negative=0
+              202750 Output=64000000, CarryOut=0, BussA=7fffffff, BussB=00000001, ALUControl=10, Zero=0, Overflow=0, Negative=0
+              202850 Output=48000000, CarryOut=0, BussA=7fffffff, BussB=00000001, ALUControl=10, Zero=0, Overflow=0, Negative=0
+              202950 Output=10000000, CarryOut=0, BussA=7fffffff, BussB=00000001, ALUControl=10, Zero=0, Overflow=1, Negative=0
+              203050 Output=a0000000, CarryOut=0, BussA=7fffffff, BussB=00000001, ALUControl=10, Zero=0, Overflow=1, Negative=1
+              203150 Output=c0000000, CarryOut=0, BussA=7fffffff, BussB=00000001, ALUControl=10, Zero=0, Overflow=0, Negative=1
+              203250 Output=00000000, CarryOut=0, BussA=7fffffff, BussB=00000001, ALUControl=10, Zero=0, Overflow=1, Negative=0
+              203350 Output=80000000, CarryOut=0, BussA=7fffffff, BussB=00000001, ALUControl=10, Zero=0, Overflow=1, Negative=1
+              203400 Output=80000000, CarryOut=0, BussA=7fffffff, BussB=00000001, ALUControl=10, Zero=1, Overflow=1, Negative=1
+              203500 Output=80000000, CarryOut=0, BussA=7fffffff, BussB=00000001, ALUControl=10, Zero=0, Overflow=1, Negative=1
+              300000 Output=80000000, CarryOut=0, BussA=7fffffff, BussB=ffffffff, ALUControl=10, Zero=0, Overflow=1, Negative=1
+              300300 Output=80000000, CarryOut=1, BussA=7fffffff, BussB=ffffffff, ALUControl=10, Zero=0, Overflow=1, Negative=1
+              300350 Output=7ffffffe, CarryOut=1, BussA=7fffffff, BussB=ffffffff, ALUControl=10, Zero=0, Overflow=0, Negative=0
+              400000 Output=7ffffffe, CarryOut=1, BussA=7fffffff, BussB=7fffffff, ALUControl=10, Zero=0, Overflow=0, Negative=0
+              400300 Output=7ffffffe, CarryOut=0, BussA=7fffffff, BussB=7fffffff, ALUControl=10, Zero=0, Overflow=0, Negative=0
+              400350 Output=fffffffe, CarryOut=0, BussA=7fffffff, BussB=7fffffff, ALUControl=10, Zero=0, Overflow=1, Negative=1
+              500000 Output=fffffffe, CarryOut=0, BussA=80000000, BussB=80000000, ALUControl=10, Zero=0, Overflow=1, Negative=1
+              500200 Output=fffffffe, CarryOut=1, BussA=80000000, BussB=80000000, ALUControl=10, Zero=0, Overflow=1, Negative=1
+              500250 Output=00000001, CarryOut=1, BussA=80000000, BussB=80000000, ALUControl=10, Zero=0, Overflow=0, Negative=0
+              500350 Output=fffffffc, CarryOut=1, BussA=80000000, BussB=80000000, ALUControl=10, Zero=0, Overflow=1, Negative=1
+              500450 Output=00000000, CarryOut=1, BussA=80000000, BussB=80000000, ALUControl=10, Zero=0, Overflow=1, Negative=0
+              500600 Output=00000000, CarryOut=1, BussA=80000000, BussB=80000000, ALUControl=10, Zero=1, Overflow=1, Negative=0
+              600000 Output=00000000, CarryOut=1, BussA=00000001, BussB=80000000, ALUControl=10, Zero=1, Overflow=1, Negative=0
+              600200 Output=00000000, CarryOut=0, BussA=00000001, BussB=80000000, ALUControl=10, Zero=1, Overflow=1, Negative=0
+              600250 Output=80000001, CarryOut=0, BussA=00000001, BussB=80000000, ALUControl=10, Zero=1, Overflow=0, Negative=1
+              600400 Output=80000001, CarryOut=0, BussA=00000001, BussB=80000000, ALUControl=10, Zero=0, Overflow=0, Negative=1
+              700000 Output=80000001, CarryOut=0, BussA=00000def, BussB=00000abc, ALUControl=11, Zero=0, Overflow=0, Negative=1
+              700100 Output=80000001, CarryOut=0, BussA=00000def, BussB=00000abc, ALUControl=11, Zero=0, Overflow=1, Negative=1
+              700250 Output=80000def, CarryOut=0, BussA=00000def, BussB=00000abc, ALUControl=11, Zero=0, Overflow=1, Negative=1
+              700350 Output=80000def, CarryOut=1, BussA=00000def, BussB=00000abc, ALUControl=11, Zero=0, Overflow=1, Negative=1
+              700400 Output=00000753, CarryOut=1, BussA=00000def, BussB=00000abc, ALUControl=11, Zero=0, Overflow=0, Negative=0
+              700500 Output=00000373, CarryOut=1, BussA=00000def, BussB=00000abc, ALUControl=11, Zero=0, Overflow=0, Negative=0
+              700600 Output=00000333, CarryOut=1, BussA=00000def, BussB=00000abc, ALUControl=11, Zero=0, Overflow=0, Negative=0
+              800000 Output=00000333, CarryOut=1, BussA=00001234, BussB=00000105, ALUControl=11, Zero=0, Overflow=0, Negative=0
+              800250 Output=00001ce8, CarryOut=1, BussA=00001234, BussB=00000105, ALUControl=11, Zero=0, Overflow=0, Negative=0
+              800350 Output=000008e8, CarryOut=1, BussA=00001234, BussB=00000105, ALUControl=11, Zero=0, Overflow=0, Negative=0
+              800400 Output=000008e1, CarryOut=1, BussA=00001234, BussB=00000105, ALUControl=11, Zero=0, Overflow=0, Negative=0
+              800450 Output=000000a1, CarryOut=1, BussA=00001234, BussB=00000105, ALUControl=11, Zero=0, Overflow=0, Negative=0
+              800500 Output=000000b3, CarryOut=1, BussA=00001234, BussB=00000105, ALUControl=11, Zero=0, Overflow=0, Negative=0
+              800550 Output=00001033, CarryOut=1, BussA=00001234, BussB=00000105, ALUControl=11, Zero=0, Overflow=0, Negative=0
+              800600 Output=00001037, CarryOut=1, BussA=00001234, BussB=00000105, ALUControl=11, Zero=0, Overflow=0, Negative=0
+              800650 Output=00001137, CarryOut=1, BussA=00001234, BussB=00000105, ALUControl=11, Zero=0, Overflow=0, Negative=0
+              800700 Output=0000113f, CarryOut=1, BussA=00001234, BussB=00000105, ALUControl=11, Zero=0, Overflow=0, Negative=0
+              800800 Output=0000112f, CarryOut=1, BussA=00001234, BussB=00000105, ALUControl=11, Zero=0, Overflow=0, Negative=0
+              900000 Output=0000112f, CarryOut=1, BussA=80000000, BussB=00000001, ALUControl=11, Zero=0, Overflow=0, Negative=0
+              900250 Output=8000031b, CarryOut=1, BussA=80000000, BussB=00000001, ALUControl=11, Zero=0, Overflow=0, Negative=1
+              900350 Output=8000073b, CarryOut=1, BussA=80000000, BussB=00000001, ALUControl=11, Zero=0, Overflow=0, Negative=1
+              900400 Output=8000063f, CarryOut=1, BussA=80000000, BussB=00000001, ALUControl=11, Zero=0, Overflow=0, Negative=1
+              900450 Output=80000e7f, CarryOut=1, BussA=80000000, BussB=00000001, ALUControl=11, Zero=0, Overflow=0, Negative=1
+              900500 Output=80000c7f, CarryOut=1, BussA=80000000, BussB=00000001, ALUControl=11, Zero=0, Overflow=0, Negative=1
+              900550 Output=80001cff, CarryOut=1, BussA=80000000, BussB=00000001, ALUControl=11, Zero=0, Overflow=0, Negative=1
+              900600 Output=800018ff, CarryOut=1, BussA=80000000, BussB=00000001, ALUControl=11, Zero=0, Overflow=0, Negative=1
+              900650 Output=800039ff, CarryOut=1, BussA=80000000, BussB=00000001, ALUControl=11, Zero=0, Overflow=0, Negative=1
+              900700 Output=800031ff, CarryOut=1, BussA=80000000, BussB=00000001, ALUControl=11, Zero=0, Overflow=0, Negative=1
+              900750 Output=800073ff, CarryOut=1, BussA=80000000, BussB=00000001, ALUControl=11, Zero=0, Overflow=0, Negative=1
+              900800 Output=800063ff, CarryOut=1, BussA=80000000, BussB=00000001, ALUControl=11, Zero=0, Overflow=0, Negative=1
+              900850 Output=8000e7ff, CarryOut=1, BussA=80000000, BussB=00000001, ALUControl=11, Zero=0, Overflow=0, Negative=1
+              900900 Output=8000c7ff, CarryOut=1, BussA=80000000, BussB=00000001, ALUControl=11, Zero=0, Overflow=0, Negative=1
+              900950 Output=8001cfff, CarryOut=1, BussA=80000000, BussB=00000001, ALUControl=11, Zero=0, Overflow=0, Negative=1
+              901000 Output=80018fff, CarryOut=1, BussA=80000000, BussB=00000001, ALUControl=11, Zero=0, Overflow=0, Negative=1
+              901050 Output=80039fff, CarryOut=1, BussA=80000000, BussB=00000001, ALUControl=11, Zero=0, Overflow=0, Negative=1
+              901100 Output=80031fff, CarryOut=1, BussA=80000000, BussB=00000001, ALUControl=11, Zero=0, Overflow=0, Negative=1
+              901150 Output=80073fff, CarryOut=1, BussA=80000000, BussB=00000001, ALUControl=11, Zero=0, Overflow=0, Negative=1
+              901200 Output=80063fff, CarryOut=1, BussA=80000000, BussB=00000001, ALUControl=11, Zero=0, Overflow=0, Negative=1
+              901250 Output=800e7fff, CarryOut=1, BussA=80000000, BussB=00000001, ALUControl=11, Zero=0, Overflow=0, Negative=1
+              901300 Output=800c7fff, CarryOut=1, BussA=80000000, BussB=00000001, ALUControl=11, Zero=0, Overflow=0, Negative=1
+              901350 Output=801cffff, CarryOut=1, BussA=80000000, BussB=00000001, ALUControl=11, Zero=0, Overflow=0, Negative=1
+              901400 Output=8018ffff, CarryOut=1, BussA=80000000, BussB=00000001, ALUControl=11, Zero=0, Overflow=0, Negative=1
+              901450 Output=8039ffff, CarryOut=1, BussA=80000000, BussB=00000001, ALUControl=11, Zero=0, Overflow=0, Negative=1
+              901500 Output=8031ffff, CarryOut=1, BussA=80000000, BussB=00000001, ALUControl=11, Zero=0, Overflow=0, Negative=1
+              901550 Output=8073ffff, CarryOut=1, BussA=80000000, BussB=00000001, ALUControl=11, Zero=0, Overflow=0, Negative=1
+              901600 Output=8063ffff, CarryOut=1, BussA=80000000, BussB=00000001, ALUControl=11, Zero=0, Overflow=0, Negative=1
+              901650 Output=80e7ffff, CarryOut=1, BussA=80000000, BussB=00000001, ALUControl=11, Zero=0, Overflow=0, Negative=1
+              901700 Output=80c7ffff, CarryOut=1, BussA=80000000, BussB=00000001, ALUControl=11, Zero=0, Overflow=0, Negative=1
+              901750 Output=81cfffff, CarryOut=1, BussA=80000000, BussB=00000001, ALUControl=11, Zero=0, Overflow=0, Negative=1
+              901800 Output=818fffff, CarryOut=1, BussA=80000000, BussB=00000001, ALUControl=11, Zero=0, Overflow=0, Negative=1
+              901850 Output=839fffff, CarryOut=1, BussA=80000000, BussB=00000001, ALUControl=11, Zero=0, Overflow=0, Negative=1
+              901900 Output=831fffff, CarryOut=1, BussA=80000000, BussB=00000001, ALUControl=11, Zero=0, Overflow=0, Negative=1
+              901950 Output=873fffff, CarryOut=1, BussA=80000000, BussB=00000001, ALUControl=11, Zero=0, Overflow=0, Negative=1
+              902000 Output=863fffff, CarryOut=1, BussA=80000000, BussB=00000001, ALUControl=11, Zero=0, Overflow=0, Negative=1
+              902050 Output=8e7fffff, CarryOut=1, BussA=80000000, BussB=00000001, ALUControl=11, Zero=0, Overflow=0, Negative=1
+              902100 Output=8c7fffff, CarryOut=1, BussA=80000000, BussB=00000001, ALUControl=11, Zero=0, Overflow=0, Negative=1
+              902150 Output=9cffffff, CarryOut=1, BussA=80000000, BussB=00000001, ALUControl=11, Zero=0, Overflow=0, Negative=1
+              902200 Output=98ffffff, CarryOut=1, BussA=80000000, BussB=00000001, ALUControl=11, Zero=0, Overflow=0, Negative=1
+              902250 Output=b9ffffff, CarryOut=1, BussA=80000000, BussB=00000001, ALUControl=11, Zero=0, Overflow=0, Negative=1
+              902300 Output=b1ffffff, CarryOut=1, BussA=80000000, BussB=00000001, ALUControl=11, Zero=0, Overflow=0, Negative=1
+              902350 Output=f3ffffff, CarryOut=1, BussA=80000000, BussB=00000001, ALUControl=11, Zero=0, Overflow=1, Negative=1
+              902400 Output=e3ffffff, CarryOut=1, BussA=80000000, BussB=00000001, ALUControl=11, Zero=0, Overflow=1, Negative=1
+              902450 Output=67ffffff, CarryOut=1, BussA=80000000, BussB=00000001, ALUControl=11, Zero=0, Overflow=1, Negative=0
+              902500 Output=47ffffff, CarryOut=1, BussA=80000000, BussB=00000001, ALUControl=11, Zero=0, Overflow=1, Negative=0
+              902550 Output=4fffffff, CarryOut=1, BussA=80000000, BussB=00000001, ALUControl=11, Zero=0, Overflow=1, Negative=0
+              902600 Output=0fffffff, CarryOut=1, BussA=80000000, BussB=00000001, ALUControl=11, Zero=0, Overflow=0, Negative=0
+              902650 Output=1fffffff, CarryOut=1, BussA=80000000, BussB=00000001, ALUControl=11, Zero=0, Overflow=0, Negative=0
+              902700 Output=9fffffff, CarryOut=1, BussA=80000000, BussB=00000001, ALUControl=11, Zero=0, Overflow=0, Negative=1
+              902750 Output=bfffffff, CarryOut=1, BussA=80000000, BussB=00000001, ALUControl=11, Zero=0, Overflow=0, Negative=1
+              902850 Output=ffffffff, CarryOut=1, BussA=80000000, BussB=00000001, ALUControl=11, Zero=0, Overflow=1, Negative=1
+              902950 Output=7fffffff, CarryOut=1, BussA=80000000, BussB=00000001, ALUControl=11, Zero=0, Overflow=1, Negative=0
+             1000000 Output=7fffffff, CarryOut=1, BussA=7fffffff, BussB=80000000, ALUControl=11, Zero=0, Overflow=1, Negative=0
+             1000200 Output=7fffffff, CarryOut=0, BussA=7fffffff, BussB=80000000, ALUControl=11, Zero=0, Overflow=1, Negative=0
+             1000250 Output=80000000, CarryOut=0, BussA=7fffffff, BussB=80000000, ALUControl=11, Zero=0, Overflow=1, Negative=1
+             1000350 Output=fffffffe, CarryOut=0, BussA=7fffffff, BussB=80000000, ALUControl=11, Zero=0, Overflow=1, Negative=1
+             1000400 Output=ffffffff, CarryOut=0, BussA=7fffffff, BussB=80000000, ALUControl=11, Zero=0, Overflow=1, Negative=1
+             1100000 Output=ffffffff, CarryOut=0, BussA=00100001, BussB=80000001, ALUControl=00, Zero=0, Overflow=1, Negative=1
+             1100100 Output=00000000, CarryOut=0, BussA=00100001, BussB=80000001, ALUControl=00, Zero=0, Overflow=0, Negative=0
+             1100250 Output=7feffffe, CarryOut=0, BussA=00100001, BussB=80000001, ALUControl=00, Zero=1, Overflow=0, Negative=0
+             1100400 Output=7feffffe, CarryOut=0, BussA=00100001, BussB=80000001, ALUControl=00, Zero=0, Overflow=0, Negative=0
+             1200000 Output=7feffffe, CarryOut=0, BussA=80000000, BussB=80000000, ALUControl=00, Zero=0, Overflow=0, Negative=0
+             1200200 Output=7fffffff, CarryOut=1, BussA=80000000, BussB=80000000, ALUControl=00, Zero=0, Overflow=0, Negative=0
+             1200250 Output=7fffffff, CarryOut=1, BussA=80000000, BussB=80000000, ALUControl=00, Zero=0, Overflow=1, Negative=0
+             1300000 Output=7fffffff, CarryOut=1, BussA=00000000, BussB=00000000, ALUControl=00, Zero=0, Overflow=1, Negative=0
+             1300200 Output=ffffffff, CarryOut=0, BussA=00000000, BussB=00000000, ALUControl=00, Zero=0, Overflow=1, Negative=1
+             1300250 Output=ffffffff, CarryOut=0, BussA=00000000, BussB=00000000, ALUControl=00, Zero=0, Overflow=0, Negative=1
+             1400000 Output=ffffffff, CarryOut=0, BussA=00100001, BussB=80000001, ALUControl=01, Zero=0, Overflow=0, Negative=1
+             1400100 Output=ffffffff, CarryOut=1, BussA=00100001, BussB=80000001, ALUControl=01, Zero=0, Overflow=0, Negative=1
+             1400200 Output=7feffffe, CarryOut=1, BussA=00100001, BussB=80000001, ALUControl=01, Zero=0, Overflow=0, Negative=0
+             1400250 Output=00000000, CarryOut=1, BussA=00100001, BussB=80000001, ALUControl=01, Zero=0, Overflow=0, Negative=0
+             1400350 Output=00000000, CarryOut=0, BussA=00100001, BussB=80000001, ALUControl=01, Zero=0, Overflow=0, Negative=0
+             1400400 Output=00000001, CarryOut=0, BussA=00100001, BussB=80000001, ALUControl=01, Zero=1, Overflow=1, Negative=0
+             1400500 Output=00000000, CarryOut=0, BussA=00100001, BussB=80000001, ALUControl=01, Zero=1, Overflow=1, Negative=0
+             1400550 Output=00000000, CarryOut=0, BussA=00100001, BussB=80000001, ALUControl=01, Zero=0, Overflow=1, Negative=0
+             1400650 Output=00000000, CarryOut=0, BussA=00100001, BussB=80000001, ALUControl=01, Zero=1, Overflow=1, Negative=0
+             1500000 Output=00000000, CarryOut=0, BussA=80000000, BussB=80000000, ALUControl=01, Zero=1, Overflow=1, Negative=0
+             1500200 Output=00000000, CarryOut=1, BussA=80000000, BussB=80000000, ALUControl=01, Zero=1, Overflow=1, Negative=0
+             1500250 Output=00000001, CarryOut=1, BussA=80000000, BussB=80000000, ALUControl=01, Zero=1, Overflow=0, Negative=0
+             1500350 Output=00000000, CarryOut=1, BussA=80000000, BussB=80000000, ALUControl=01, Zero=1, Overflow=0, Negative=0
+             1500400 Output=00000000, CarryOut=1, BussA=80000000, BussB=80000000, ALUControl=01, Zero=0, Overflow=0, Negative=0
+             1500500 Output=00000000, CarryOut=1, BussA=80000000, BussB=80000000, ALUControl=01, Zero=1, Overflow=0, Negative=0
+             1503250 Output=00000000, CarryOut=1, BussA=80000000, BussB=80000000, ALUControl=01, Zero=1, Overflow=1, Negative=0
+             1503300 Output=00000000, CarryOut=0, BussA=80000000, BussB=80000000, ALUControl=01, Zero=1, Overflow=1, Negative=0
+             1503450 Output=00000001, CarryOut=1, BussA=80000000, BussB=80000000, ALUControl=01, Zero=1, Overflow=1, Negative=0
+             1503500 Output=00000001, CarryOut=1, BussA=80000000, BussB=80000000, ALUControl=01, Zero=1, Overflow=0, Negative=0
+             1503600 Output=00000000, CarryOut=1, BussA=80000000, BussB=80000000, ALUControl=01, Zero=0, Overflow=0, Negative=0
+             1503750 Output=00000000, CarryOut=1, BussA=80000000, BussB=80000000, ALUControl=01, Zero=1, Overflow=0, Negative=0
+             1600000 Output=00000000, CarryOut=1, BussA=00000000, BussB=00000100, ALUControl=01, Zero=1, Overflow=0, Negative=0
+             1600200 Output=00000000, CarryOut=0, BussA=00000000, BussB=00000100, ALUControl=01, Zero=1, Overflow=0, Negative=0
+             1600250 Output=00000001, CarryOut=0, BussA=00000000, BussB=00000100, ALUControl=01, Zero=1, Overflow=1, Negative=0
+             1600350 Output=00000001, CarryOut=1, BussA=00000000, BussB=00000100, ALUControl=01, Zero=1, Overflow=1, Negative=0
+             1600400 Output=00000001, CarryOut=1, BussA=00000000, BussB=00000100, ALUControl=01, Zero=0, Overflow=0, Negative=0
+             1600500 Output=00000000, CarryOut=1, BussA=00000000, BussB=00000100, ALUControl=01, Zero=0, Overflow=0, Negative=0
+             1600650 Output=00000000, CarryOut=1, BussA=00000000, BussB=00000100, ALUControl=01, Zero=1, Overflow=0, Negative=0
+             1602600 Output=00000000, CarryOut=1, BussA=00000000, BussB=00000100, ALUControl=01, Zero=1, Overflow=1, Negative=0
+             1602650 Output=00000000, CarryOut=0, BussA=00000000, BussB=00000100, ALUControl=01, Zero=1, Overflow=1, Negative=0
+             1602700 Output=00000000, CarryOut=0, BussA=00000000, BussB=00000100, ALUControl=01, Zero=1, Overflow=0, Negative=0
+             1602800 Output=00000001, CarryOut=0, BussA=00000000, BussB=00000100, ALUControl=01, Zero=1, Overflow=0, Negative=0
+             1602950 Output=00000001, CarryOut=0, BussA=00000000, BussB=00000100, ALUControl=01, Zero=0, Overflow=0, Negative=0
+1 warning
+0 simulation events (use +profile or +listcounts option to count) + 11139 accelerated events
+CPU time: 0.0 secs to compile + 0.0 secs to link + 0.1 secs in simulation
+End of Tool:	VERILOG-XL	06.20.001-s   Oct 25, 2013  21:16:16

@@ -1,0 +1,41 @@
+`include "fullAdder.v"
+module full32bAdder(s, co, a, b, ci);
+	output [31:0] s;
+	output co;
+	input [31:0] a, b;
+	input ci;
+	wire [30:0] Co;
+	
+	fullAdder f0(s[0], Co[0], a[0], b[0], ci);
+	fullAdder f1(s[1], Co[1], a[1], b[1], Co[0]);
+	fullAdder f2(s[2], Co[2], a[2], b[2], Co[1]);
+	fullAdder f3(s[3], Co[3], a[3], b[3], Co[2]);
+	fullAdder f4(s[4], Co[4], a[4], b[4], Co[3]);
+	fullAdder f5(s[5], Co[5], a[5], b[5], Co[4]);
+	fullAdder f6(s[6], Co[6], a[6], b[6], Co[5]);
+	fullAdder f7(s[7], Co[7], a[7], b[7], Co[6]);
+	fullAdder f8(s[8], Co[8], a[8], b[8], Co[7]);
+	fullAdder f9(s[9], Co[9], a[9], b[9], Co[8]);
+	fullAdder f10(s[10], Co[10], a[10], b[10], Co[9]);
+	fullAdder f11(s[11], Co[11], a[11], b[11], Co[10]);
+	fullAdder f12(s[12], Co[12], a[12], b[12], Co[11]);
+	fullAdder f13(s[13], Co[13], a[13], b[13], Co[12]);
+	fullAdder f14(s[14], Co[14], a[14], b[14], Co[13]);
+	fullAdder f15(s[15], Co[15], a[15], b[15], Co[14]);
+	fullAdder f16(s[16], Co[16], a[16], b[16], Co[15]);
+	fullAdder f17(s[17], Co[17], a[17], b[17], Co[16]);
+	fullAdder f18(s[18], Co[18], a[18], b[18], Co[17]);
+	fullAdder f19(s[19], Co[19], a[19], b[19], Co[18]);
+	fullAdder f20(s[20], Co[20], a[20], b[20], Co[19]);
+	fullAdder f21(s[21], Co[21], a[21], b[21], Co[20]);
+	fullAdder f22(s[22], Co[22], a[22], b[22], Co[21]);
+	fullAdder f23(s[23], Co[23], a[23], b[23], Co[22]);
+	fullAdder f24(s[24], Co[24], a[24], b[24], Co[23]);
+	fullAdder f25(s[25], Co[25], a[25], b[25], Co[24]);
+	fullAdder f26(s[26], Co[26], a[26], b[26], Co[25]);
+	fullAdder f27(s[27], Co[27], a[27], b[27], Co[26]);
+	fullAdder f28(s[28], Co[28], a[28], b[28], Co[27]);
+	fullAdder f29(s[29], Co[29], a[29], b[29], Co[28]);
+	fullAdder f30(s[30], Co[30], a[30], b[30], Co[29]);
+	fullAdder f31(s[31], co, a[31], b[31], Co[30]);
+endmodule

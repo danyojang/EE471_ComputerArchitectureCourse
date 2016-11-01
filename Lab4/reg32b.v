@@ -1,0 +1,38 @@
+module reg32b();
+	output [31:0] q;
+	input [31:0] d;
+	input rst, clk;
+	D_FF d0(q[0], d[0], rst, clk);
+	D_FF d1(q[1], d[1], rst, clk);
+	D_FF d2(q[2], d[2], rst, clk);
+	D_FF d3(q[3], d[3], rst, clk);
+	D_FF d4(q[4], d[4], rst, clk);
+	D_FF d5(q[5], d[5], rst, clk);
+	D_FF d6(q[6], d[6], rst, clk);
+	D_FF d7(q[7], d[7], rst, clk);
+	D_FF d8(q[8], d[8], rst, clk);
+	D_FF d9(q[9], d[9], rst, clk);
+	D_FF d10(q[10], d[10], rst, clk);
+	D_FF d11(q[11], d[11], rst, clk);
+	D_FF d12(q[12], d[12], rst, clk);
+	D_FF d13(q[13], d[13], rst, clk);
+	D_FF d14(q[14], d[14], rst, clk);
+	D_FF d15(q[15], d[15], rst, clk);
+
+	D_FF d16(q[16], d[16], rst, clk);
+	D_FF d17(q[17], d[17], rst, clk);
+	D_FF d18(q[18], d[18], rst, clk);
+	D_FF d19(q[19], d[19], rst, clk);
+	D_FF d20(q[20], d[20], rst, clk);
+	D_FF d21(q[21], d[21], rst, clk);
+	D_FF d22(q[22], d[22], rst, clk);
+	D_FF d23(q[23], d[23], rst, clk);
+	D_FF d24(q[24], d[24], rst, clk);
+	D_FF d25(q[25], d[25], rst, clk);
+	D_FF d26(q[26], d[26], rst, clk);
+	D_FF d27(q[27], d[27], rst, clk);
+	D_FF d28(q[28], d[28], rst, clk);
+	D_FF d29(q[29], d[29], rst, clk);
+	D_FF d30(q[30], d[30], rst, clk);
+	D_FF d31(q[31], d[31], rst, clk);
+endmodule
